@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutTraffic">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/tv_about_traffic_title"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:textSize="24sp"
+           android:layout_gravity="center_horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/mobi_20"
+           android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_about_traffic_context"
+            android:textSize="24sp"
+            android:gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000/67 daqiqa
+(oyiga/kuniga) MOBIUZ abonentlariga, O‘zbekistonning boshqa mobil operatorlari abonentlariga,Shahar raqamlariga chiquvchi qo'ng'iroqlarga\n2 000/67 MB
+
+Mobil internet (oyiga/kuniga)\n2000/67 SMS
+
+(oyiga/kuniga )\nO'zbekiston bo'yicha qo'ng'iroqlarning bir daqiqasi
+42,10 so‘m
+
+O’zbekistonning boshqa mobil operatorlari abonentlariga (oyiga 2000 daqiqa yoki kuniga 67 daqiqa tugagandan keyin)\n42,10 so‘m
+
+Shahar raqamlariga (oyiga 2000 daqiqa yoki kuniga 67 daqiqa tugagandan keyin)\nO'zbekiston bo'yicha 1 ta SMS-xabar
+0 so‘m
+
+Kiruvchi SMS-xabar
+42,10 so‘m
+
+Chiquvchi SMS-xabarlar – Mobiuz abonentlariga (oyiga 2000 SMS yoki kuniga 67 SMS tugagandan keyin)
+42,10 so‘m
+
+Chiquvchi SMS-xabarlar – O’zbekistonning boshqa mobil operatorlari abonentlarga (oyiga 2000 SMS yoki kuniga 67 SMS tugagandan keyin)\nInternetning 1 MB trafigi
+126,31 so‘m
+
+Internetning 1 MB trafigi (oyiga 2 000 MB yoki kuniga 67 MB tugagandan keyin)\nTR ga o'tish «Mobi 20»:
+USSD-buyruq - *111*120#
+SMS-yordamchi – 616120 raqamiga 1 soni\nFoydali buyruqlar:
+*100# - balans, tarif rejasi  va oylik to‘lovga kiritilgan daqiqa va MB to‘plamlarining  qoldig‘ini bilish*
+*104# - xarid qilingan SMS-to‘plamlari qoldig‘ini bilish
+*102# - xarid qilingan Internet-to‘plamlar qoldig‘ini bilish*
+*001# - tarif rejasi bo‘yicha abonent to‘lovini yechib olishning keyingi sanasini ko‘rish uchun so‘rov yuborish
+*qoldiqni faqat internet-sessiya faol bo'lmagan holatda tekshirish kerak
+
+«Har kunlik abonent to‘loviga o‘tkazishga taqiq»"/>
+
+    </LinearLayout>
+
+</ScrollView>

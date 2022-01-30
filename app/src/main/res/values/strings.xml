@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">USSD_by_using_nav_component</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mobi_20">Mobi 20</string>
+    <string name="mobi_25">Mobi 25</string>
+    <string name="mobi_30_plus">Mobi 30</string>
+    <string name="mobi_40">Mobi 40</string>
+    <string name="mobi_50">Mobi 50</string>
+    <string name="mobi_70">Mobi 70</string>
+    <string name="mobi_90">Mobi 90</string>
+    <string name="mobi_110">Mobi 110</string>
+    <string name="mobi_150">Mobi 150</string>
+</resources>
